@@ -24,6 +24,8 @@ The application analyzes an uploaded resume and provides:
 
 ---
 
+**LIVE LINK:-** https://ai-resume-analyzer-yzzzecagxyrj8hy3cst5hu.streamlit.app/
+
 ## Project Objective
 
 The main objective of this project is to build an NLP-based application that can analyze resumes and compare their technical skills with predefined job-role requirements.

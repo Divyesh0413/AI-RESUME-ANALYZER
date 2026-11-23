@@ -657,5 +657,5 @@ The job-role match scores and learning recommendations are estimates generated f
 The results should not be considered professional recruitment, hiring, rejection, or employment decisions.
 
 
-**Bas bhai — pura block copy → `README.md` me paste → `Ctrl + S`.**
+
 

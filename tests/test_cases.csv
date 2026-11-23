@@ -1,0 +1,11 @@
+﻿test_id,resume_file,test_scenario,expected_result,actual_result,status,remarks
+TC01,Resume.docx,Upload a valid DOCX resume and click Analyze Resume,Resume text should be extracted and analysis should complete without errors,,Not Tested,Use sample_resumes/Resume.docx
+TC02,Resume.pdf,Upload a valid text-based PDF resume,Text from all PDF pages should be extracted and analyzed,,Not Tested,Create or obtain a test PDF resume before running
+TC03,unsupported.txt,Upload a file with an unsupported extension,Application should reject the file or show a clear validation message,,Not Tested,Verify uploader restricts file types to PDF and DOCX
+TC04,Resume.docx,Extract technical skills from the sample resume,Only skills present in the resume and skill dictionary should be detected,,Not Tested,Compare displayed skills with resume content
+TC05,Resume.docx,Categorize the detected skills,Detected skills should appear under their correct categories,,Not Tested,"Check Programming, Machine Learning, NLP and Tools categories"
+TC06,Resume.docx,Compare resume skills against job role requirements,App should calculate match scores and list missing skills for available roles,,Not Tested,Check all roles in data/job_roles.csv
+TC07,Resume.docx,Display the top three job role recommendations,The three highest-scoring roles should be displayed in descending score order,,Not Tested,Compare displayed order with complete matching results
+TC08,Resume.docx,Generate a learning roadmap for missing skills,Missing skills should display their available beginner learning topics,,Not Tested,"Check Docker, PyTorch or SQL if listed as missing"
+TC09,Resume.docx,Check the job role comparison chart,Chart should display job roles with their corresponding match scores,,Not Tested,Verify chart values match analysis results
+TC10,Resume.docx,Use Analyze Another Resume reset button,Previous analysis results should clear and app should return to upload state,,Not Tested,Confirm old results are no longer visible

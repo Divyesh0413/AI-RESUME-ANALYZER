@@ -1,0 +1,44 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+.streamlit/
+*.pem
+*.key
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Personal command notes
+COMMAND.txt
+command.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Python test cache
+.pytest_cache/

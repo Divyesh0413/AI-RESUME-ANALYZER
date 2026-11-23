@@ -1,0 +1,6 @@
+role,required_skills
+Data Scientist,"Python,SQL,Pandas,NumPy,Machine Learning,Scikit-learn,Matplotlib"
+Machine Learning Engineer,"Python,Machine Learning,Scikit-learn,TensorFlow,PyTorch,Git,Docker"
+AI/ML Engineer,"Python,Machine Learning,Deep Learning,TensorFlow,PyTorch,NLP,Git"
+NLP Engineer,"Python,NLP,Transformers,Hugging Face,LLM,RAG,Machine Learning"
+Backend Developer,"Python,FastAPI,Flask,SQL,PostgreSQL,MongoDB,REST API,Git,Docker"

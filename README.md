@@ -24,7 +24,7 @@ The application analyzes an uploaded resume and provides:
 
 ---
 
-**Live demo:** https://your-app-name.streamlit.app
+**Live demo:** https://ai-resume-analyzer-yzzzecagxyrj8hy3cst5hu.streamlit.app/
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-resume-analyzer-yzzzecagxyrj8hy3cst5hu.streamlit.app/)
 
